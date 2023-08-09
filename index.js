@@ -1,5 +1,3 @@
-import { AppRegistry } from 'react-native';
-import './shim'
-import App from './App';
+import TouchID from './TouchID';
 
-AppRegistry.registerComponent('golden', () => App);
+export default TouchID;
